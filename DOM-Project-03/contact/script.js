@@ -46,3 +46,6 @@ for (let i = 0; i < inputList.length; i++){
 for (let i = 0; i < textAreaList.length; i++){
     textAreaLists[i].value = textAreaValues[i];
 };
+
+
+reduce (curr,arr)

@@ -1,15 +1,3 @@
-let accordian = document.querySelectorAll(".accordian h3");
-accordian.forEach((element) => {
-  element.addEventListener("click", () => {
-    let para = element.nextElementSibling;
-    if (para.style.display === "block") {
-      para.style.display = "none";
-    } else {
-      para.style.display = "block";
-    }
-  });
-});
-
 // Question1 -> Replace Conatact to Project
 
 var ul = document.querySelector("ul");
@@ -40,3 +28,15 @@ skillsTitle.innerHTML = "Skills";
 const skillsParagraph = document.createElement("p");
 skills.appendChild(skillsParagraph);
 skillsParagraph.innerHTML = "I posses a very good command over the full stack Development technology like MERN which can be seen in my work over the Github."
+
+let accordian = document.querySelectorAll(".accordian h3");
+accordian.forEach((element) => {
+  element.addEventListener("click", () => {
+    let para = element.nextElementSibling;
+    if (para.style.display === "block") {
+      para.style.display = "none";
+    } else {
+      para.style.display = "block";
+    }
+  });
+});
