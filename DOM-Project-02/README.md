@@ -1,10 +1,11 @@
 #### Project-02
 
-- **Question1** -> Replace Conatact to Project and change the color
+#### Question1
 
 ![image](./secondAssignmentImage/task1Output.png)
 
 ```javascript
+
 var ul = document.querySelector("ul");
 ul.children[2].innerHTML = "Project";
 
@@ -17,13 +18,15 @@ const accordianParagraph = document.querySelectorAll(".accordian p");
 accordianParagraph.forEach(element => {
   element.style.backgroundColor ="#eeeeff";
 });
+
 ```
 
-- **Question2** -> add skills
+#### Question2
 
 ![image](./secondAssignmentImage/task2Output.png)
 
 ```javascript
+
 const faqSection = document.querySelector(".accordian-wrapper");
 
 const skills = document.createElement("div");
@@ -37,4 +40,5 @@ skillsTitle.innerHTML = "Skills";
 const skillsParagraph = document.createElement("p");
 skills.appendChild(skillsParagraph);
 skillsParagraph.innerHTML = "I posses a very good command over the full stack Development technology like MERN which can be seen in my work over the Github."
+
 ```

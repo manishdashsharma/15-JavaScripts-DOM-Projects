@@ -1,37 +1,11 @@
-#### Project-09
-
-#### Question1
-
-- Before
-
-![image](./ass9.1-before.png)
-```javascript
-
+// Question1 - Chnage the heading color
 var pageHeading = document.querySelector('.caption .title');
 pageHeading.style.color = 'red';
 
-```
-
-- After 
-
-![image](./ass9.1-after.png)
-
-#### Question2
-
-- Before
-
-![image](./ass9.2-before.png)
-
-```javascript
-
+// change the button colorafter clicking
 var button = document.querySelector('.add-to-cart');
 console.log(button.style.backgroundColor)
 
 button.addEventListener('click', function() {
   button.style.backgroundColor ='#D61355';
 });
-
-```
-- After 
-
-![image](./ass9.2-after.png)

@@ -1,7 +1,10 @@
 #### Projet-03
+#### Question
+
 ![image](./thirdAssignmentImage/task1Output.png)
-- Question1 -> set values
+
 ```javascript
+
 // User Output Board
 const userOutputBoardInput = document.querySelectorAll('.mainLeftDetails input');
 const userOutputBoardTextArea = document.querySelectorAll(".mainLeftDetails textarea");
@@ -51,4 +54,5 @@ for (let i = 0; i < inputList.length; i++){
 for (let i = 0; i < textAreaList.length; i++){
     textAreaLists[i].value = textAreaValues[i];
 };
+
 ```

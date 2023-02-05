@@ -1,12 +1,4 @@
-#### Project-08
-
-#### Question-1
-
-- Before
-
-![image](./ass8.1-before.png)
-
-```javascript
+// Question1 - add another div and add make it scrollable
 var asideBar = document.querySelector('.new');
 
 var hrLine = document.createElement('hr');
@@ -26,32 +18,13 @@ asideBar.appendChild(paragraph);
 
 asideBar.style.overflowY = 'scroll';
 asideBar.style.overflowX = "hidden";
-```
-- After 
 
-![image](./ass8.1-before.png)
+// Question2 - remove the background image
 
-
-##### Question-2
-
-- Before
-
-![image](./ass8.2-before.png)
-
-```javascript
 document.body.style.backgroundImage="none";
-```
-- After 
 
-![image](./ass8.2-before.png)
+// Question3 - hamburger button
 
-#### Question-2
-
-- Before
-
-![image](./ass8.3-before.png)
-
-```javascript
 const navbar = document.querySelector(".navbar");
 const logo = document.querySelector(".navbar-brand");
 const button = document.querySelector(".navbar-toggler");
@@ -78,7 +51,3 @@ button.addEventListener("click",() => {
         logo.style.position = "static";
     }
 });
-```
-- After 
-
-![image](./ass8.3-before.png)

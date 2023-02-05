@@ -1,7 +1,10 @@
 #### Project-04
+#### Question
+
 ![image](./Output/DOM%20P1%20SS.png)
-- Question -> Change the bottom color of each card 
+
 ```javascript
+
 const barbarian = document.querySelector('.clash-card__unit-stats.clash-card__unit-stats--barbarian.clearfix');
 barbarian.style.backgroundColor = 'yellow';
 
@@ -16,4 +19,5 @@ giant.style.backgroundColor = 'blue';
 
 const wizard = document.querySelector('.clash-card__unit-stats.clash-card__unit-stats--wizard.clearfix');
 wizard.style.backgroundColor = 'purple';
+
 ```

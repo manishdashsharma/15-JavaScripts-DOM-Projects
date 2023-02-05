@@ -1,9 +1,11 @@
 #### Project-04
 
-- Question 1 : add a button
+#### Question 1
 
 ![image](./Output/DOM%20P2%20SS.png)
+
 ```javascript
+
 var addButton = document.getElementsByClassName('nav-center')[0].children[2];
 
 console.log(addButton);
@@ -13,12 +15,15 @@ addButton.appendChild(buttonElement);
 buttonElement.setAttribute('href', '#');
 buttonElement.setAttribute('class', 'btn');
 buttonElement.innerText= 'Pro Subcriptions';
+
 ```
 
-- Question 2 : add a card
+#### Question 2
+
 ![image](./Output/DOM%20P2%20SS.png)
 
 ```javascript
+
 var cardSection = document.getElementsByClassName('recipe-gallery');
 
 var addCard = document.createElement('div');
@@ -44,4 +49,5 @@ var pTag = document.createElement('p');
 aTag.appendChild(pTag);
 pTag.setAttribute('class','recipe-disp');
 pTag.innerText = 'I have cretaed this using js';
+
 ```
