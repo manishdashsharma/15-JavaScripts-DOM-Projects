@@ -1,9 +1,4 @@
-#### Project-07
-
-- **Question 1**
-
-![image](./ass7.1-after.png)
-```javascript
+// Question 1
 var languageOffered = document.getElementsByClassName('main__languages')[0];
 var aTags = languageOffered.getElementsByTagName('a');
 
@@ -12,13 +7,8 @@ for (var i = 0; i < aTags.length; i++) {
     languageOffered.removeChild(aTags[i]);
 }
 }
-```
 
-- **Question 2**
-
-![image](./ass7.2-after.png)
-
-```javascript
+// Question 2
 var input = document.querySelector(".main__form-input");
 
 input.removeAttribute("disabled");
@@ -30,4 +20,3 @@ submit.removeAttribute("disabled");
 document.addEventListener("load",()=>{
 
 });
-```
